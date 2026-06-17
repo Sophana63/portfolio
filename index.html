@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="320" height="60" viewBox="0 0 320 60">
+                                <circle cx="20" cy="30" r="6" fill="#0180ff"/>
+                                <circle cx="40" cy="18" r="6" fill="#0180ff"/>
+                                <circle cx="40" cy="42" r="6" fill="#0180ff"/>
+                                <line x1="20" y1="30" x2="40" y2="18" stroke="#0180ff" stroke-width="2"/>
+                                <line x1="20" y1="30" x2="40" y2="42" stroke="#0180ff" stroke-width="2"/>
+
+                                <text x="60" y="45"
+                                    font-family="Poppins, Arial, sans-serif"
+                                    font-size="34"
+                                    font-weight="700"
+                                    fill="#ffffff">
+                                    Portfolio
+                                </text>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">Parcours</a></li>
+                        <li><a class="smoothscroll" href="#works">Projets</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+
+        <!-- # intro
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+                    
+                    <div class="s-intro__content-text">
+
+                        <div class="s-intro__content-pretitle text-pretitle">Bonjour</div>
+                        <h1 class="s-intro__content-title">
+                        Je suis Sophana Sean<br>
+                        Data Engineer & Développeur IA. <br>
+                        <br>
+                        Je conçois des plateformes de données,
+                        des pipelines ETL et des solutions d'IA.                        
+                        </h1>                            
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">À propos de moi</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Me contacter</a>
+                        </div> <!-- s-intro__content-btns -->   
+
+                    </div> <!-- s-intro__content-text -->                     
+                    
+                </div> <!-- s-intro__content-inner -->  
+            </div> <!-- s-intro__content -->
+
+            <ul class="s-intro__social social-list">
+                <li>
+                    <a href="https://www.linkedin.com/in/sophana-sean/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+                            <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M8.34 17V10.67H6.26V17H8.34M7.3 9.8A1.2 1.2 0 1 0 7.3 7.4A1.2 1.2 0 0 0 7.3 9.8M17.74 17V13.53C17.74 11.67 16.74 10.48 15.04 10.48C13.67 10.48 13.05 11.23 12.71 11.76V10.67H10.63V17H12.71V13.83C12.71 13 12.87 12.2 13.9 12.2C14.92 12.2 14.94 13.15 14.94 13.88V17H17.74Z"/>
+                        </svg>
+                        <span class="u-screen-reader-text">LinkedIn</span>
+                    </a>
+                </li>                
+                <li>
+                    <a href="https://github.com/Sophana63" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+                            <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2.16c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.72-1.55-2.55-.29-5.23-1.28-5.23-5.67 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.4-2.69 5.37-5.25 5.66.41.36.77 1.08.77 2.17v3.22c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+                        </svg>
+                        <span class="u-screen-reader-text">GitHub</span>
+                    </a>
+                </li>                
+                <li>
+                    <a href="https://www.facebook.com/sophana.sean/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                        <span class="u-screen-reader-text">Facebook</span>
+                    </a>
+                </li>                
+            </ul> <!-- end s-intro__social -->
+
+            <div class="s-intro__content-media">                               
+                <img src="images/intro-bg.jpg" srcset="images/intro-bg.jpg 1x, images/intro-bg.jpg 2x" alt="">
+            </div> <!-- s-intro__content-media -->                
+
+            <div class="s-intro__btn-download">
+                <a class="btn btn--stroke" href="pdf/CV_Sophana-SEAN.pdf" target="_blank">mon CV</a>
+            </div> <!-- end s-intro__btn-download -->
+            
+            <div class="s-intro__scroll-down">
+                <a href="#about" class="smoothscroll">
+                    <div class="scroll-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </div>
+                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+                </a>
+            </div> <!-- s-intro__scroll-down -->
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">À propos de moi.</h2>
+                    </div> <!-- end section-header -->
+
+                    <p class="attention-getter">
+                    Passionné par les technologies et la valorisation des données, j’ai construit mon parcours autour de l’informatique et de l’innovation. Après plusieurs années en tant que technicien informatique, j’ai choisi de me spécialiser dans les métiers de la Data afin de concevoir des solutions capables de transformer les données en véritables leviers de décision.
+                    </p>
+
+                    <p class="attention-getter">
+                    Aujourd’hui, je me forme et développe des projets autour de l’ingénierie des données, du Cloud et de l’intelligence artificielle. J’interviens sur l’ensemble du cycle de vie de la donnée : collecte, transformation, stockage, analyse et visualisation. Mes projets m’ont permis de travailler avec des technologies telles que Python, MongoDB, Airbyte, Apache Spark, AWS, LangChain, FAISS et Power BI.
+                    </p>
+
+                    <p class="attention-getter">
+                    Curieux, rigoureux et orienté résolution de problèmes, j’aime concevoir des architectures de données fiables, automatiser les traitements et explorer de nouvelles approches pour répondre à des besoins métier concrets.
+                    </p>
+
+                    <p class="attention-getter">
+                    Mon objectif est de contribuer à des projets innovants en tant que Data Engineer et de participer à la construction de plateformes de données performantes, évolutives et créatrices de valeur.
+                    </p>
+                    
+
+                    <div class="grid-list-items s-about__blocks">
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Experience</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    APSIDE
+                                    <span>Développeur IA</span>
+                                </li>
+                                <li>
+                                    ABCDEPAN’PC
+                                    <span>Technicien Informatique</span>
+                                </li>
+                                <li>
+                                    BLUE PAGE
+                                    <span>Auto Entrepreneur - Infographiste</span>
+                                </li>
+                                <li>
+                                    CRYSTAL PROG
+                                    <span>Gestionnaire administrative</span>
+                                </li>                                
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Formation</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="#0">
+                                        Data Engineer
+                                        <span>OpenClassrooms — RNCP 7</span>
+                                    </a>                                        
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Développeur IA
+                                        <span>Simplon — RNCP 5</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Développeur Informatique 
+                                        <span>AFPA  — Bac +2</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        STT Gestion Informatique
+                                        <span>Baccalauréat</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+                        
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Compétence</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    &#8226; Python<br>
+                                    &#8226; SQL & MongoDB<br>
+                                    &#8226; Apache Spark<br>
+                                    &#8226; Airbyte<br>
+                                    &#8226; AWS<br>
+                                    &#8226; Docker & Git<br>
+                                    &#8226; Power BI<br>
+                                    &#8226; LangChain & FAISS
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->   
+
+
+
+        <!-- # works
+        ================================================== -->
+        <section id="works" class="s-works target-section">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="02">
+                        <h2 class="text-display-title">Projets Data Engineering.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row folio-entries">
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/p11_large.png" class="entry__link glightbox" data-glightbox="title: Chatbot RAG pour la recommandation d'événements; description: .entry__desc-01">
+                        <div class="entry__thumb">
+                            <img src="images/folio/p11.png" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Chatbot RAG pour la recommandation d'événements</h4>
+                            <div class="entry__cat">
+                                LangChain • FAISS • Python • Flask • Mistral AI
+                                <p>
+                                    <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white">
+                                    <img src="https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white">
+                                    <img src="https://img.shields.io/badge/FAISS-4B0082?logoColor=white">
+                                    <img src="https://img.shields.io/badge/Mistral_AI-FF7000?logo=mistralai&logoColor=white">
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-01">
+                        <p>
+                        Développement d'un chatbot intelligent capable de recommander des événements culturels et sportifs à partir d'une base de données OpenAgenda. Le projet repose sur une architecture RAG (Retrieval-Augmented Generation) utilisant des embeddings vectoriels, FAISS et un modèle de langage pour fournir des réponses pertinentes et contextualisées aux utilisateurs.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/p9_large.png" class="entry__link glightbox" data-glightbox="title: Analyse temps réel des tickets clients; description: .entry__desc-02">
+                        <div class="entry__thumb">
+                            <img src="images/folio/p9.png" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Analyse temps réel des tickets clients</h4>
+                            <div class="entry__cat">
+                                Redpanda • Apache Spark • Docker • MongoDB
+                                <p>
+                                    <img src="https://img.shields.io/badge/Redpanda-AE1C28?logo=redpanda&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?logo=apachespark&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white">
+                                    <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white">
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-02">
+                        <p>
+                        Conception d'une plateforme de traitement en temps réel permettant de collecter, analyser et enrichir les tickets clients dès leur création. Les données sont diffusées via Redpanda puis traitées par Apache Spark afin de produire des indicateurs et analyses exploitables en continu.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/p8_large.png" class="entry__link glightbox" data-glightbox="title: Pipeline ETL météo; description: .entry__desc-03">
+                        <div class="entry__thumb">
+                            <img src="images/folio/p8.png" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Pipeline ETL météo</h4>
+                            <div class="entry__cat">
+                                Airbyte • AWS • MongoDB • Python
+                                <p>
+                                    <img src="https://img.shields.io/badge/Airbyte-615EFF?logo=airbyte&logoColor=white">
+                                    <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white">
+                                    <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-03">
+                        <p>
+                        Développement d'un pipeline ETL permettant de collecter, transformer et stocker des données météorologiques provenant de multiples sources. Le projet automatise l'ingestion des données, leur nettoyage et leur intégration dans une base MongoDB afin de faciliter leur exploitation et leur analyse.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/p7_large.png" class="entry__link glightbox" data-glightbox="title: Cluster MongoDB shardé Paris / Lyon; description: .entry__desc-04">
+                        <div class="entry__thumb">
+                            <img src="images/folio/p7.png" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Cluster MongoDB shardé Paris / Lyon</h4>
+                            <div class="entry__cat">
+                                MongoDB • Replica Sets • Sharding • Docker
+                                <p>
+                                    <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Replica_Sets-13AA52?logo=mongodb&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Sharding-C2185B?logo=mongodb&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white">
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-04">
+                        <p>
+                        Conception et déploiement d'une architecture MongoDB distribuée reposant sur le sharding et les Replica Sets afin de répartir les données entre plusieurs centres de données. Le projet met en œuvre la haute disponibilité, la réplication et la scalabilité horizontale pour assurer la résilience et les performances de la plateforme.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/data_large.png" class="entry__link glightbox" data-glightbox="title: Data Warehouse & BI; description: .entry__desc-05">
+                        <div class="entry__thumb">
+                            <img src="images/folio/data.png" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">Data Warehouse & BI</h4>
+                            <div class="entry__cat">
+                                SQL • Power BI • Python • ETL
+                                <p>
+                                    <img src="https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black">
+                                    <img src="https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-05">
+                        <p>
+                        Conception d'un entrepôt de données permettant de centraliser et analyser les données RH et sportives. Création de tableaux de bord interactifs pour faciliter le suivi des indicateurs métier et la prise de décision.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry -->
+
+                <div class="column entry">
+                    <a href="images/folio/gallery/codenames_large.png" class="entry__link glightbox" data-glightbox="title: CodeNames IA – Jeu collaboratif avec Intelligence Artificielle; description: .entry__desc-06">
+                        <div class="entry__thumb">
+                            <img src="images/folio/codenames.png" alt="">
+                        </div>
+                        <div class="entry__info">
+                            <h4 class="entry__title">CodeNames IA – Jeu collaboratif avec Intelligence Artificielle</h4>
+                            <div class="entry__cat">
+                                Technologies utilisées
+                                <p>
+                                    <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white">
+                                    <img src="https://img.shields.io/badge/spaCy-09A3D5?logo=spacy&logoColor=white">
+                                    <img src="https://img.shields.io/badge/Gensim-FF6F00?logoColor=white">
+                                    <img src="https://img.shields.io/badge/Vosk-4CAF50?logoColor=white">
+                                    <img src="https://img.shields.io/badge/NLP-8E44AD?logoColor=white">
+                                    <img src="https://img.shields.io/badge/OCR-34495E?logoColor=white">
+                                    <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white">
+                                    <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white">
+                                    <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white">
+                                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black">
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="glightbox-desc entry__desc-06">
+                        <p>
+                        Développement d'une application web basée sur le jeu de société CodeNames intégrant plusieurs technologies d'intelligence artificielle. Le joueur collabore avec une IA capable de proposer des associations de mots grâce au traitement du langage naturel et à des modèles d'embeddings. Le système inclut également la reconnaissance vocale, l'analyse sémantique et un mécanisme d'apprentissage basé sur les retours des utilisateurs.
+                        <a href="https://www.behance.net/">Project Link</a>.
+                        </p>
+                    </div>
+                </div> <!-- entry --> 
+
+            </div> <!-- folio entries -->
+
+
+            <div class="row s-testimonials">
+                <div class="column xl-12">
+
+                    <h3 class="s-testimonials__header">Mes domaines d'expertise</h3>
+    
+                    <div class="swiper-container s-testimonials__slider">
+    
+                        <div class="swiper-wrapper">
+
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-01.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Data Engineering</strong>
+                                        <span>Collecte, transformation et stockage des données</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Conception de pipelines ETL, automatisation des flux de données et mise en place d'architectures performantes pour centraliser et exploiter les données métier.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-02.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Big Data & Streaming</strong>
+                                        <span>Traitement de données en temps réel</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Développement de solutions capables d'ingérer, traiter et analyser des flux de données continus grâce à des technologies comme Apache Spark et Redpanda.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+            
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-03.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Intelligence Artificielle</strong>
+                                        <span>NLP, RAG et recherche vectorielle</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Création d'applications exploitant les modèles de langage, les embeddings vectoriels et les architectures RAG pour la recommandation et la recherche d'information.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+    
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-04.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Maintenance Informatique</strong>
+                                        <span>Support & Assistance Technique</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Installation, la maintenance et le dépannage de postes de travail, serveurs et équipements réseau. 
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+
+                            <div class="s-testimonials__slide swiper-slide">
+                                <div class="s-testimonials__author">
+                                    <img src="images/avatars/user-05.jpg" alt="Author image" class="s-testimonials__avatar">
+                                    <cite class="s-testimonials__cite">
+                                        <strong>Infographie</strong>
+                                        <span>Design Graphique & Communication</span>
+                                    </cite>
+                                </div>
+                                <p>
+                                Création de supports visuels destinés à la communication d'entreprise et au marketing. Mise en page, identité visuelle, préparation des fichiers pour l'impression et conception de contenus attractifs avec Photoshop, Illustrator et InDesign.
+                                </p>
+                            </div> <!-- end s-testimonials__slide -->
+        
+                        </div> <!-- end swiper-wrapper -->
+    
+                        <div class="swiper-pagination"></div>
+    
+                    </div> <!-- end swiper-container -->
+    
+                </div> <!-- end column -->
+            </div> <!-- end s-testimonials -->
+
+        </section> <!-- end s-works -->         
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" data-num="03">
+                        <h2 class="text-display-title">Me Contacter.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-footer__buttons">
+               
+                <div class="column xl-6 tab-12">
+                    <a href="mailto:sean.sophana63@gmail.com" class="btn btn--primary btn--large u-fullwidth">Par email</a>
+                </div>
+          
+                <div class="column xl-6 tab-12">                    
+                    <a href="pdf/CV_Sophana-SEAN.pdf" class="btn btn--stroke btn--large u-fullwidth" target="_blank">obtenir mon CV</a>
+                </div>
+            
+            </div> <!-- end section-footer__buttons -->              
+            
+            <div class="row s-footer__bottom">                
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>Portfolio</span> 
+                        <br>                       
+                        <span>Projet 13</span>                        
+                    </p>
+                </div>
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">              
+                        <span>Passez votre système IA du POC au MVP </span>
+                        <span>et réalisez votre portfolio de Data Engineer</span>
+                    </p>
+                </div>
+
+            </div> <!-- end section-footer__bottom -->          
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>haut de page</span>   
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
