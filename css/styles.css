@@ -2228,13 +2228,13 @@ table {
 
 th,
 td {
-    padding      : var(--vspace-0_5) 3.2rem calc(var(--vspace-0_5) - 1px);
+    padding      : var(--vspace-0_125) 3.2rem calc(var(--vspace-0_125) - 1px);
     text-align   : left;
     border-bottom: 1px solid var(--color-border);
 }
 
 th {
-    padding    : var(--vspace-0_5) 3.2rem;
+    padding    : var(--vspace-0_125) 3.2rem;
     color      : var(--color-text-dark);
     font-family: var(--font-1);
     font-weight: 600;
@@ -2255,6 +2255,11 @@ td:last-child {
     overflow-x                : auto;
     -webkit-overflow-scrolling: touch;
 }
+
+td > a > img, td > img {
+    padding: 0;
+    margin: 8px 0 0 0;
+} 
 
 
 /* ===================================================================
