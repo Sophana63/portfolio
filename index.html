@@ -56,20 +56,25 @@
                     <div class="s-header__logo">
                         <a class="logo" href="index.html">
                             <svg xmlns="http://www.w3.org/2000/svg" width="320" height="60" viewBox="0 0 320 60">
-                                <circle cx="20" cy="30" r="6" fill="#0180ff"/>
-                                <circle cx="40" cy="18" r="6" fill="#0180ff"/>
-                                <circle cx="40" cy="42" r="6" fill="#0180ff"/>
-                                <line x1="20" y1="30" x2="40" y2="18" stroke="#0180ff" stroke-width="2"/>
-                                <line x1="20" y1="30" x2="40" y2="42" stroke="#0180ff" stroke-width="2"/>
-
-                                <text x="60" y="45"
-                                    font-family="Poppins, Arial, sans-serif"
-                                    font-size="34"
-                                    font-weight="700"
-                                    fill="#ffffff">
+                                <defs>
+                                    <!-- Pétale de cerisier -->
+                                    <path id="petal" d="M0,0 C-15,-20 -20,-35 -5,-45 Q0,-40 0,-40 Q0,-40 5,-45 C20,-35 15,-20 0,0 Z" fill="#ffb3c6" stroke="#ff8fab" stroke-width="1.5" stroke-linejoin="round"></path>
+                                </defs>
+                                
+                                <g transform="translate(30, 30) scale(0.5)">
+                                    <use href="#petal"></use>
+                                    <use href="#petal" transform="rotate(72)"></use>
+                                    <use href="#petal" transform="rotate(144)"></use>
+                                    <use href="#petal" transform="rotate(216)"></use>
+                                    <use href="#petal" transform="rotate(288)"></use>
+                                    
+                                    <circle cx="0" cy="0" r="5" fill="#ff4d6d"></circle>
+                                </g>
+                                
+                                <text x="65" y="42" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">
                                     Portfolio
                                 </text>
-                            </svg>
+                            </svg>                            
                         </a>
                     </div>
 
@@ -590,7 +595,7 @@
                                 <td><img src="https://img.shields.io/badge/P-12-0180ff?logo=adobeacrobatreader&logoColor=white"></td>
                                 <td>
                                     <a href="pdf/P12 - Gérez un projet d'infrastructure.pdf" target="_blank"><img src="https://img.shields.io/badge/Lien-PDF-red?logo=adobeacrobatreader&logoColor=white"></a></td>
-                                <td><img src="https://img.shields.io/badge/En%20cours-F59E0B?logo=clockify&logoColor=white"></td>
+                                <td><img src="https://img.shields.io/badge/Validé-22C55E?logo=checkmarx&logoColor=white"></td>
                             </tr>
                             <tr>
                                 <td>Concevez et déployez un système RAG</td>
